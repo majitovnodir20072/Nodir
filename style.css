@@ -53,7 +53,7 @@ li a{
     font-weight: 700;
     margin: 20px;
 }
-button{
+#btn{
     margin: 20px 10px;
     font-weight: bold;
     font-size: 40px;
@@ -64,7 +64,7 @@ button{
     cursor: pointer;
     transition: all .5s;
 }
-button:hover{
+#btn:hover{
     border-color: gray;
     color: gray;
     border-top-right-radius: 0px;
@@ -81,4 +81,241 @@ li:hover{
 }
 li a:hover{
     color: gray;
+}
+
+
+
+/* ============================================ */
+
+.card-section{
+    width: 100%;
+    height: 100vh; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://www.lamborghinilongisland.com/imagetag/3899/main/l/New-2025-Rolls-Royce-Cullinan-Series-II-1742221393.jpg);
+    background-size: cover;
+    background-position: center; 
+
+}
+
+.card{
+    width: 380px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://avatars.mds.yandex.net/i?id=2ee451ec1467d8a33e77a4689dfb3b4cff22843d-16478218-images-thumbs&n=13);
+    background-size: cover;
+    background-position: center; 
+    transition: all .9s;
+    
+}
+.card-text{
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    display: flex;
+
+}
+.card-text p{
+    padding: 10px 24px;
+    text-align: center;
+    line-height: 2;
+    display: none;
+    transition: all .9s;
+    color: transparent;
+}
+.card-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-buttons button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 25px;
+    color:#fff;
+}
+.card:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/originals/09/18/df/0918df8974c71c24978bdcae0521d1e5.jpg );
+    background-size: cover;
+    background-position: center; 
+    transform: scale(1.02);
+    transition: all 0.9s ;
+}
+.card:hover .card-text p{
+
+    color: #fff;
+    transition: all .9s;
+    display: inline;
+}
+.card h1{
+    color: transparent ;
+    text-align: center;
+}
+.card:hover h1{
+    display: inline ;
+    color: #fff;
+    transition: all .9s;
+}
+.card:hover .card-buttons button{
+    border: 2px solid black;
+    transform: scale(1.02);
+    transition: all 0.5s;
+
+}
+.card-container{
+    display:flex ;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+
+
+.card1{
+    width: 380px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/736x/d3/fa/2b/d3fa2bcf7e85b148c8565baff84fcb96.jpg);
+    background-size: cover;
+    background-position: center; 
+    transition: all .9s;
+
+
+
+}
+
+.card2{
+    width: 380px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/originals/79/81/08/798108f83123f87d60183bc4cb2225e5.png);
+    background-size: cover;
+    background-position: center; 
+    transition: all .9s;
+
+
+
+}
+
+
+
+
+
+.card3{
+    width: 380px;
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/videos/thumbnails/originals/36/45/bd/3645bd16d43723c3c48edd8407bf1ec3.0000000.jpg);
+    background-size: cover;
+    background-position: center; 
+    transition: all .9s;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card1:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/originals/34/5d/52/345d52aab1532b9bfb49fe3b8050c8fb.jpg?nii=t);
+    background-size: cover;
+    background-position: center; 
+    transform: scale(1.02);
+    transition: all 0.9s ;
+}
+.card1:hover .card-text p{
+
+    color: #fff;
+    transition: all .9s;
+    display: inline;
+}
+.card1 h1{
+    color: transparent ;
+    text-align: center;
+}
+.card1:hover h1{
+    display: inline ;
+    color: #fff;
+    transition: all .9s;
+}
+.card1:hover .card-buttons button{
+    border: 2px solid black;
+    transform: scale(1.02);
+    transition: all 0.5s;
+
+}
+
+
+
+
+
+
+.card2:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/736x/e4/91/ec/e491ecf4bbfb21b74807ea2ae8fb6c01.jpg);
+    background-size: cover;
+    background-position: center; 
+    transform: scale(1.02);
+    transition: all 0.9s ;
+}
+.card2:hover .card-text p{
+
+    color: #fff;
+    transition: all .9s;
+    display: inline;
+}
+.card2 h1{
+    color: transparent ;
+    text-align: center;
+}
+.card2:hover h1{
+    display: inline ;
+    color: #fff;
+    transition: all .9s;
+}
+.card2:hover .card-buttons button{
+    border: 2px solid black;
+    transform: scale(1.02);
+    transition: all 0.5s;
+
+}
+
+
+
+
+
+
+.card3:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.137)) ,url(https://i.pinimg.com/736x/37/05/57/37055787ca3a3dc90ece1b8e5d3c4fac.jpg);
+    background-size: cover;
+    background-position: center; 
+    transform: scale(1.02);
+    transition: all 0.9s ;
+}
+.card3:hover .card-text p{
+
+    color: #fff;
+    transition: all .9s;
+    display: inline;
+}
+.card3 h1{
+    color: transparent ;
+    text-align: center;
+}
+.card3:hover h1{
+    display: inline ;
+    color: #fff;
+    transition: all .9s;
+}
+.card3:hover .card-buttons button{
+    border: 2px solid black;
+    transform: scale(1.02);
+    transition: all 0.5s;
+
 }
